@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    border: 2px white solid;
+}
