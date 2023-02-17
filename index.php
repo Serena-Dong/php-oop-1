@@ -32,9 +32,11 @@ class Movie
 // Movie Objects 
 $firstMovie = new Movie('The Dreamers', 2003, 'Bernardo Bertolucci');
 $secondMovie = new Movie('Dead Poet Society', 1989, 'Peter Weir');
+$thirdMovie = new Movie('Oppenheimer', 2023, 'Christopher Nolan');
 
 $firstMovie->current(2003);
 $secondMovie->current(1989);
+$secondMovie->current(2023);
 
 
 var_dump($firstMovie, $secondMovie)
